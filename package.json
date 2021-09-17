@@ -1,16 +1,23 @@
 {
-  "name": "my-portfolio",
-  "version": "0.0.0",
+  "name": "my-portfolio-nuxt",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^2.1.0"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
+    "core-js": "^3.9.1",
     "dat.gui": "^0.7.7",
-    "gsap": "^3.6.0"
+    "gsap": "^3.6.0",
+    "nuxt": "^2.15.3",
+    "orbit-controls-es6": "^2.0.1",
+    "three": "^0.126.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.0.1",
+    "postcss": "^8.2.8"
   }
 }
