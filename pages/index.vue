@@ -168,15 +168,10 @@ export default {
       starVerticies.push(x, y, z)
     }
 
-    console.log(starVerticies)
-
     starGeometry.setAttribute(
       'position',
       new Float32BufferAttribute(starVerticies, 3)
     )
-
-    console.log(starGeometry)
-    console.log(starMaterial)
 
     const stars = new Points(starGeometry, starMaterial)
     scene.add(stars)
